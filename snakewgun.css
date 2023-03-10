@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.player{
+    height: 150px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    margin-top: 45px;
+    margin-left: 23%;
+
+}
+.ps{
+    margin-top: 20px;
+    margin-left: 12px;
+}
+#pscore{
+    font-size: 35px;
+    margin-left: 80px;
+    margin-top: -12px;
+}
+.computer{
+    height: 150px;
+    width: 230px;
+    background-color: black;
+    color: white;
+    margin-top: 45px;
+    margin-left: 23%;
+}
+.cs{
+    margin-top: 20px;
+    margin-left: 12px;
+}
+#cscore{
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: -12px;
+}
+.header{
+    display: flex;
+}
+.section
+ {
+     position: relative;
+      /* background-color: black;  */
+     /* border:2px solid white; */
+     height: 40%;
+     opacity: 0.9;
+     padding: 10px;
+
+ }
+#first{
+    border: 2px solid white;
+    height:75%;
+    width:20%;
+    position:absolute;
+    left:20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+}
+#first img
+{
+    height: 224px;
+    width: 272px;
+    opacity: 0.9;
+}
+
+#second
+{
+    border: 2px solid white;
+    height: 75%;
+    width: 20%;
+    position: absolute;
+    left: 550px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+}
+#second img
+{
+    height: 224px;
+    width:272px;
+    opacity: 0.9;
+}
+
+#third
+{
+    border: 2px solid white;
+    height: 75%;
+    width: 20%;
+    position: absolute;
+    left: 1050px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+}
+#third img
+{
+    height: 224px;
+    width:272px;
+    opacity: 0.9;
+}
+.btn{
+
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:black;
+    color: white;
+    /* margin: 17px; */
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    text-shadow: 2px 1px 5px white;
+    transition: all 2s ease-in-out;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+    border-radius: 21px;
+}
+.ScoreCard
+{
+    background-color: black;
+    /* border: 2px solid white; */
+    padding: 40px;
+    height: 90px;
+    width: 400px;
+    margin-left: 450px;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px white; 
+    color: white;
+    text-align: center;
+    margin-top: 327px;
+}

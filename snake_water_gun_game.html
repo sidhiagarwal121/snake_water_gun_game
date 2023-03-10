@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snakewgun.css">
+</head>
+<body>
+    <div class="header">
+        <div class="player">
+            <h1 class="ps">playerscore</h1><br>
+            <span id="pscore">0</span>
+        </div> 
+        <div class="computer">
+            <h1 class="cs">computerscore</h1><br>
+            <span id="cscore">0</span>
+        </div>
+
+    </div>
+    <div class="section">
+        <div id="first">
+        <img src="./snakes_01_4x3.avif" alt="">
+        <button onclick = "snake()" class="btn"> Snake </button>
+        </div>
+        
+        <div id="second">         
+         <img src="./water.webp" alt="">
+         <button onclick="water()" class="btn"> Water </button>
+        </div>
+        <div id="third">           
+          <img src="./gun.jpg" alt="">
+          <button onclick = "gun()" class="btn"> Gun </button>
+        </div>
+    </div>
+    <div class="ScoreCard">
+        <h1 id="message">Play Game!</h1>
+        <h3 id="turn">- - - - - - - - - -  </h3>
+    </div>
+    <button onclick = "restart()" class="btn"> restart </button>
+    
+   <script src="./snake_water_gun.js"></script>
+       
+   
+
+</body>
+</html>
